@@ -1,0 +1,12 @@
+
+
+class weapon:
+    def __init__(self, name, damage):
+        self.name = name
+        self.damage = damage     # easy and verry simple class 
+
+    def get_name(self):
+        return self.name
+
+    def get_damage(self):
+        return self.damage
