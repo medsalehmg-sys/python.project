@@ -1,0 +1,18 @@
+{
+    "paul": {
+        "rate": 12,
+        "appreciation": "good Work"
+    },
+       "camille": {
+        "rate": 10,
+        "appreciation": "acceptable"
+    },
+    "theo": {
+        "rate": 17,
+        "appreciation": "Excellent work"
+    },
+    "leo": {
+        "rate": 11,
+        "appreciation": "acceptable"
+    }
+}

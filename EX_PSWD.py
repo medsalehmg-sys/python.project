@@ -20,7 +20,6 @@ import string
 
 def generate_password():
     # Cette fonction sera exécutée quand on clique sur "Generate"
-
     password_min = 6
     # Longueur minimale du password = 6 caractères
 
