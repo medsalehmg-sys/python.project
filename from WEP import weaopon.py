@@ -1,0 +1,28 @@
+from WEP import weaopon
+from CL import Gamer
+knife=weaopon("knife", 10)
+gamer_1=Gamer("ISLAM",20,3)
+gamer_2=Gamer("SALEH",25,5)
+gamer3=Gamer("Romaissa",15,5)
+gamer_2.equip_weapon(knife)
+gamer_2.attack_gamer(gamer_1)
+#############################
+print("gamer1 health :",gamer_1.get_health(),"|attack :",gamer_1.get_attack_value())
+machette=weaopon("machette", 7)
+gamer_3=Gamer("CHAKIB",20,3)
+gamer_4=Gamer("MALIK",25,5)
+gamer_3.equip_weapon(knife)
+gamer_2.attack_gamer(gamer_1)
+print("gamer1 health :",gamer_1.get_health(),"|attack :",gamer_1.get_attack_value())
+knife=weaopon("knife", 10)
+gamer_5=Gamer("ISLAM",20,3)
+gamer_6=Gamer("SALEH",25,5)
+gamer_2.equip_weapon(knife)
+gamer_2.attack_gamer(gamer_1)
+print("gamer1 health :",gamer_1.get_health(),"|attack :",gamer_1.get_attack_value())
+
+knife=weaopon("knife", 10)
+gamer_7=Gamer("ISLAM",20,3)
+gamer_8=Gamer("SALEH",25,5)
+gamer_2.equip_weapon(knife)
+gamer_2.attack_gamer(gamer_1)

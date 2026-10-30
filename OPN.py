@@ -7,4 +7,10 @@ import json
 with open("classe.json","r") as file:
     students=json.load(file) # .load() function is used to load the data from the file and convert it into a Python dictionary.
     print(students)
-    
+
+#we import json 
+import json 
+with open("class.json","r") as file :
+    students=json.load(file)
+    print(students) # .load is an function used to load data from the file and convert it into a python dictionary 
+          
